@@ -19,7 +19,7 @@ const contactus = async (req, res) => {
     auth: {
       user: 'emmaroeneyoh@gmail.com',
 
-      pass: 'zqgfurvndicgugnz',
+      pass: 'ewthhejrxgwpciwa',
     },
     tls: {
       rejectUnauthorized: false,
@@ -29,7 +29,7 @@ const contactus = async (req, res) => {
     var mailOptions = {
         from: 'emmaroeneyoh@gmail.com',
         to: `emmaroeneyoh@gmail.com`,
-        subject: `${name}  :  ${subject}`,
+        subject: ` name :${name}  , subject  ${subject}`,
       text: message
         // html: data,
       };
